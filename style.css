@@ -1,0 +1,56 @@
+body{
+    background-image: url("https://image.freepik.com/free-photo/medical-equipment-laptop-with-succulent-plant-pastel-green-background_23-2148213938.jpg");
+   background-size: 1004px 1000px;
+   background-repeat: repeat-y;
+   
+}
+.registerform{
+    background-color: #c3e7e7;
+}
+section{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.registerform{
+    width: 280px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 35px;
+    margin-top: 146px;
+    margin-left: 303px;
+    padding-bottom: 25px;
+}
+@media only screen and (max-width: 600px){
+    section{
+        width: 350px;
+        height: 200px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .registerform{
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    
+}
+.row section{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.btn{
+    
+        background-color:#1E90FF;
+        border: 2px solid #1E90FF;
+        color: white;
+       
+    
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: 28px;
+    
+}

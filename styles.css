@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    
+}
+body{
+    background-image: url("images/WhatsApp\ Image\ 2021-07-08\ at\ 5.43.18\ PM.jpeg");
+   background-repeat: repeat-y;
+}
+h1{
+    color:rgba(250, 24, 24, 0.685);
+    font-family:'Otomanopee One', sans-serif;;
+}
+p{
+    color: black;
+}
+
+.row img{
+    margin-top: 100px;
+    margin-left: 100px;
+    opacity: 0.5;
+}
+.row section{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.main-heading{
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #c3e7e7;
+}
+@media only screen and (max-width: 600px) {
+    .main-heading{
+     padding-top: 15px;
+     padding-left: 15px;
+    }
+    body{
+        background-image: url("images/WhatsApp\ Image\ 2021-07-08\ at\ 5.43.18\ PM.jpeg");
+       background-repeat:unset;
+    }
+    
+    .row img{
+        margin-left: 0px;
+        opacity: 1.0;
+    }
+  }
+.btn{
+    background-color:#1E90FF;
+    border: 2px solid #1E90FF;
+    color: white;
+    padding: 8px;
+} 
